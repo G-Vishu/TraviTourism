@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Travi! Tour the world</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <div class="background-image">
+        <nav>
+            <div class="top">
+                <div class="container">
+                    <div class="box">
+                        <a href="Home.html" target="_blank"><img src="homebtn.png" height="40px" width="40px"></a> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                        <a href="Home.html" target="_blank"><img src="homebtnw.png" height="40px" width="40px" class="hover-img"></a> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  
+                    </div>
+                
+                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                
+                
+                    <div class="three">
+                        <img src="logo.png" height="123px" width="273x" >&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+
+                        <a href="about.html" style="font-size: 20px;" target="_blank">About Us</a>&emsp;&emsp;&emsp;&emsp; 
+                        <a href='tours.html' style="font-size: 20px;" target="_blank">Tours</a> &emsp;&emsp;&emsp;&emsp;
+                        <a href="contact.html" style="font-size: 20px;" target="_blank">Contact Us</a>&emsp;&emsp;
+                    </div>
+                </div>
+            </div>
+           
+        </nav>
+        <br><br>
+        <h1 style="color: darkgreen; text-align: center; font-size: 40px;">Contact Us</h1><br><br><br>
+        <h1 style="color: antiquewhite ; font-size: 25px;">FeedBack Form: </h1>
+
+
+        <form>
+            <table>
+             <tr>
+              <td>Name :</td>
+              <td><input type="text" placeholder="First_Name  Surname "></td>
+             </tr>
+             
+             <tr>
+              <td>Gender :</td>
+              <td>
+               <input type="radio" name="Gender"> Male
+               <input type="radio" name="Gender"> Female
+               <input type="radio" name="Gender"> Other
+              </td>
+             </tr>
+             <tr>
+              <td>Email :</td>
+              <td><input type="email" placeholder="eg.'xyz@gmail.com"></td>
+             </tr>
+             <tr>
+              <td>Phone no :</td>
+              <td>
+               <select>
+                <option>+91</option>
+                <option>+11</option>
+                <option>+83</option>
+                <option>+72</option>
+                <option>+16</option>
+                <option>+46</option>
+               </select>
+               <input type="phone" placeholder="10-digit number">
+              </td>
+             </tr>
+             <tr >
+                <td>
+                    <input type='desc' placeholder='Your Reviews and Experiences......' size="100px" height="1000px"><br><br><br><br><br><br>
+                </td>
+             </tr>
+             <tr>
+              <td><input type="submit" value="Submit"></td>
+             </tr>
+            </table>
+           </form>
+    
+    
+    
+
+    </div>
+        
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .background-image {
+        background-image: url('bgi.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+        opacity: 100%;
+        color: beige;
+    }
+    .container{
+        display: flex;
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+    .box{
+        position: relative;
+        width: 40px;
+        height: 40px;
+        border-radius: 8px;
+        overflow: hidden;
+        margin: 30px;
+        box-shadow: 3px 4px 3px rgba(0,0,0,0.2);
+    }
+    .box img{
+        
+        width: 100%;
+        transition: all linear 0.01ms;
+    }
+    img.hover-img{
+        position: absolute;
+        top:0;
+        left: 0;
+        opacity: 0;
+    }
+    .box:hover img{
+        opacity:0 ;
+    }
+    .box:hover img.hover-img{
+        opacity:1
+    }
+    .top{
+        width: 100%;
+        height: 123px;
+        border-radius: 10px;
+        border-color: azure;
+        background-color: plum;
+    }
+    a:link {
+
+        color: azure;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: azure;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: red;
+        background-color: darkkhaki;
+        border-radius: 10px;
+        border-color: black;
+        box-sizing: border-box;
+    }
+
+    a:active {
+        color: yellow;
+        background-color: transparent;
+        text-decoration: underline;
+    }
+
+    
+    
+</style>
+
+</body>
+</html>
